@@ -1,6 +1,4 @@
 import React from "react";
-import { Autocomplete } from "@react-google-maps/api";
-
 const Header = () => {
   return (
     <div>
@@ -9,7 +7,7 @@ const Header = () => {
           <h1 className="font-bold text-xl font-serif">Travel Advisor</h1>
         </div>
         <div className="flex space-x-4 px-2 items-center">
-          <div>Explore new Places!</div>
+          <div>Explore New Places!</div>
           <div>
             <div
               class="flex items-center max-w-md mx-auto bg-white rounded-sm "
@@ -18,7 +16,7 @@ const Header = () => {
               <div class="w-full">
                 <input
                   type="search"
-                  className="w-full px-4 py-1 text-gray-800 rounded-full focus:outline-none"
+                  className="w-full px-3 py-1 text-gray-800 rounded-full focus:outline-none"
                   placeholder="Search"
                   x-model="search"
                 />
